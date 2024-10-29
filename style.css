@@ -230,3 +230,97 @@ body {
     color: #f8fafc;
     background-color: #3a3d42;
 }
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.5rem; /* Ukuran font lebih kecil untuk judul header */
+    }
+
+    .nav-links button {
+        font-size: 1.2rem; /* Ukuran font lebih kecil untuk tombol navigasi */
+    }
+
+    .container {
+        padding: 15px; /* Mengurangi padding di container untuk tampilan mobile */
+    }
+
+    .statistics h2 {
+        font-size: 1.5rem; /* Ukuran font lebih kecil untuk judul statistik */
+    }
+
+    .months {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Mengubah kolom grid agar lebih responsif */
+    }
+
+    .month-card {
+        padding: 10px; /* Mengurangi padding pada kartu bulan */
+    }
+
+    .month-title {
+        font-size: 1.2rem; /* Ukuran font lebih kecil untuk judul kartu bulan */
+    }
+
+    .search-input input {
+        font-size: 14px; /* Ukuran font lebih kecil untuk input pencarian */
+    }
+
+    .search-input button {
+        font-size: 14px; /* Ukuran font lebih kecil untuk tombol pencarian */
+    }
+
+    .task-input input {
+        font-size: 14px; /* Ukuran font lebih kecil untuk input tugas */
+    }
+
+    .task-input button {
+        font-size: 14px; /* Ukuran font lebih kecil untuk tombol input tugas */
+    }
+
+    .task-item {
+        flex-direction: column; /* Menyusun item tugas secara vertikal pada mobile */
+        align-items: flex-start; /* Menyelaraskan item tugas ke kiri */
+    }
+
+    .task-item .task-name {
+        margin-bottom: 5px; /* Jarak antara nama tugas dan status */
+    }
+
+    .footer {
+        font-size: 14px; /* Ukuran font lebih kecil untuk footer */
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 1.2rem; /* Ukuran font lebih kecil untuk judul header pada mobile sangat kecil */
+    }
+
+    .nav-links button {
+        font-size: 1rem; /* Ukuran font lebih kecil untuk tombol navigasi */
+    }
+
+    .statistics h2 {
+        font-size: 1.3rem; /* Ukuran font lebih kecil untuk judul statistik */
+    }
+
+    .search-input input {
+        font-size: 12px; /* Ukuran font lebih kecil untuk input pencarian */
+    }
+
+    .search-input button {
+        font-size: 12px; /* Ukuran font lebih kecil untuk tombol pencarian */
+    }
+
+    .task-input input {
+        font-size: 12px; /* Ukuran font lebih kecil untuk input tugas */
+    }
+
+    .task-input button {
+        font-size: 12px; /* Ukuran font lebih kecil untuk tombol input tugas */
+    }
+
+    .footer {
+        font-size: 12px; /* Ukuran font lebih kecil untuk footer */
+    }
+}
